@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+
+main {
+    background: linear-gradient(to right,  rgb(2, 76, 187), cyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.display {
+    width: 25dvw;
+    min-height: 17dvh;
+    background: black;
+    opacity: 0.8;
+}
+
+.container {
+    width: 25dvw;
+    min-height: 50dvh;
+    background: white;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(8, 248, 236, 0.226);
+    width: 5.5dvw;
+    height: 9dvh;
+    border: 0;
+    margin: 5px;
+    margin-bottom: 0px;
+    border-radius: 1rem;
+    font-family: monospace;
+    font-size: 25px;
+}
+button:active{
+    background: rgba(8, 248, 236, 0.322);
+}
+.span-two{
+    width: 11.7dvw;
+    height: 9dvh;
+}
+p{
+    color: white;
+    opacity: 10;
+}
+.previous{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    height: 40%;
+    padding-right: 20px;
+    color: white;
+}
+.present{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 50px;
+    height: 60%;
+    padding-right: 20px;
+    color: white;
+    text-wrap: wrap;
+}
+
+
+@media (max-width:1024px) {
+    .display {
+        width: 40dvw;
+        min-height: 20dvh;
+    }
+    
+    .container {
+        width: 40dvw;
+        min-height: 55dvh;
+    }
+    button{
+        width: 8.6dvw;
+        height: 9.5dvh;
+        border: 0;
+        margin: 5px;
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+    .AC{
+        width: 18.4dvw;
+        height: 9dvh;
+    }
+    .compile{
+        width: 18.4dvw;
+        height: 9dvh;
+        font-size: 20px;
+    }
+}
+@media (max-width:425px) {
+    .display {
+        width: 60dvw;
+        min-height: 15dvh;
+    }
+    
+    .container {
+        width: 60dvw;
+        min-height: 50dvh;
+    }
+    button{
+        width: 12.4dvw;
+        height: 9.5dvh;
+        border: 0;
+        margin: 5px;
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+    .AC{
+        width: 18.4dvw;
+        height: 9dvh;
+    }
+    .compile{
+        width: 18.4dvw;
+        height: 9dvh;
+        font-size: 20px;
+    }
+}
