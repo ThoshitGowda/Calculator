@@ -74,60 +74,50 @@ p{
     text-wrap: wrap;
 }
 
-
-@media (max-width:1024px) {
+@media (max-width:1330px) {
     .display {
-        width: 40dvw;
+        width: 30dvw;
         min-height: 20dvh;
     }
     
     .container {
-        width: 40dvw;
+        width: 30dvw;
         min-height: 55dvh;
     }
     button{
-        width: 8.6dvw;
+        width: 6.7dvw;
         height: 9.5dvh;
         border: 0;
-        margin: 5px;
+        margin: 4px;
         margin-bottom: 0px;
-        font-size: 15px;
+        font-size: 25px;
     }
-    .AC{
-        width: 18.4dvw;
+    .span-two{
+        width: 13.7dvw;
         height: 9dvh;
-    }
-    .compile{
-        width: 18.4dvw;
-        height: 9dvh;
-        font-size: 20px;
     }
 }
-@media (max-width:425px) {
+
+@media (max-width: 500px){
     .display {
-        width: 60dvw;
+        width: 50dvw;
         min-height: 15dvh;
     }
     
     .container {
-        width: 60dvw;
-        min-height: 50dvh;
+        width: 50dvw;
+        min-height: 20dvh;
     }
     button{
-        width: 12.4dvw;
+        width: 10.5dvw;
         height: 9.5dvh;
         border: 0;
-        margin: 5px;
+        margin: 3px;
         margin-bottom: 0px;
-        font-size: 15px;
+        font-size: 25px;
     }
-    .AC{
-        width: 18.4dvw;
+    .span-two{
+        width: 22.7dvw;
         height: 9dvh;
-    }
-    .compile{
-        width: 18.4dvw;
-        height: 9dvh;
-        font-size: 20px;
     }
 }
