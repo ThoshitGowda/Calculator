@@ -16,6 +16,7 @@ class Calculator{
 
     appendNumber(number){
         if(this.present.toString().includes('.') && number === '.') return;
+        if(this.present === "" && number === ".") this.present = "0";
         this.present = this.present.toString() + number.toString() ;
         
     }
