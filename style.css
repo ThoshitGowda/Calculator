@@ -100,24 +100,24 @@ p{
 
 @media (max-width: 500px){
     .display {
-        width: 50dvw;
-        min-height: 15dvh;
+        width: 90dvw;
+        min-height: 25dvh;
     }
     
     .container {
-        width: 50dvw;
-        min-height: 20dvh;
+        width: 90dvw;
+        min-height: 65dvh;
     }
     button{
-        width: 10.5dvw;
-        height: 9.5dvh;
+        width: 20.5dvw;
+        height: 12dvh;
         border: 0;
         margin: 3px;
         margin-bottom: 0px;
         font-size: 25px;
     }
     .span-two{
-        width: 22.7dvw;
-        height: 9dvh;
+        width: 41.7dvw;
+        height: 12dvh;
     }
 }
