@@ -37,7 +37,7 @@ class Calculator{
         if(isNaN(this.previous) && isNaN(this.present))return;
         if(this.operation === "+") this.present = +this.previous + +this.present;
         else if(this.operation === "-") this.present = +this.previous - +this.present;
-        else if(this.operation === "*") this.present = +this.previous * +this.present;
+        else if(this.operation === "×") this.present = +this.previous * +this.present;
         else if(this.operation === "÷") this.present = +this.previous / +this.present;
         this.previous = "";
         this.operation = undefined;
