@@ -1,4 +1,4 @@
-alert("Greetings: \n never give you up \n never gonna let you down \n never gonna run around and desert you " );
+alert("Greetings: \n never gonna give you up \n never gonna let you down \n never gonna run around and desert you " );
 
 class Calculator{
     constructor(presentDisplay,previousDisplay){
